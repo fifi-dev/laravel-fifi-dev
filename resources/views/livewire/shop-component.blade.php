@@ -1,3 +1,3 @@
 <div>
-    {{-- The whole world belongs to you --}}
+    Ici c'est la boutique
 </div>
