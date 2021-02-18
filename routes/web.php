@@ -30,9 +30,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',HomeComponent::class);
 
 //chemin ver la page de boutique
-
+Route::get('/boutique',ShopComponent::class);
 
 //chemin vers le panier
-
+Route::get('/panier',CartComponent::class);
 
 //chemin vers le paiment
+Route::get('/paiment',CheckComponent::class);
