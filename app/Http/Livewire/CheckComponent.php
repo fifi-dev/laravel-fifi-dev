@@ -8,6 +8,6 @@ class CheckComponent extends Component
 {
     public function render()
     {
-        return view('livewire.check-component');
+        return view('livewire.check-component')->layout("layouts.base");
     }
 }
