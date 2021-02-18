@@ -2,6 +2,9 @@
 
 
 use App\Http\Livewire\HomeComponent;
+use App\Http\Livewire\ShopComponent;
+use App\Http\Livewire\CartComponent;
+use App\Http\Livewire\CheckComponent;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,4 +26,13 @@ use Illuminate\Support\Facades\Route;
  //   return view('dashboard');
 //})->name('dashboard');
 
+//chemin vers la page d'acceuil
 Route::get('/',HomeComponent::class);
+
+//chemin ver la page de boutique
+
+
+//chemin vers le panier
+
+
+//chemin vers le paiment
