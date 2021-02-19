@@ -25,7 +25,16 @@ class ProductFactory extends Factory
         $product_name = $this->faker->unique()->words($nb=4,$asText=true);
         $slug = Str::slug($category_name);
         return [
-            
+            'name' => $product_name,
+            'slug' => $slug,
+            'short_description' => $this->faker->text(200),
+            'description' => $this->faker->text(500),
+            'regular_price' => $this->faker->numberBetweeb(10,500),
+            'SKU' => 'DIGI'.$this->faker->unique()->numberBetween(100,500),
+            'stock_status' => 'instock',
+            'quantity' => $this->faker->numberBetweeb(100,200),
+            'image' => 'digital-' . $this->faker->unique()->numberBetween(1,22).'.jpg',
+            'category_id' => $this->faker->numberBetween(1,5)
         ];
     }
 }
