@@ -36,4 +36,4 @@ Route::get('/boutique',ShopComponent::class);
 Route::get('/panier',CartComponent::class);
 
 //chemin vers le paiment
-Route::get('/paiment',CheckComponent::class);
+Route::get('/paiement',CheckComponent::class);

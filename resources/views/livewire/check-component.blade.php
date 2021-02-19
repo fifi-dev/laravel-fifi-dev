@@ -27,7 +27,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-5 pl-sm-0"><a class="btn btn-dark btn-sm btn-block h-100 d-flex align-items-center justify-content-center px-0" href="cart.html">Add to cart</a></div>
+                                        <div class="col-sm-5 pl-sm-0"><a class="btn btn-dark btn-sm btn-block h-100 d-flex align-items-center justify-content-center px-0" href="/panier">Ajouter au panier</a></div>
                                     </div><a class="btn btn-link text-dark p-0" href="#"><i class="far fa-heart mr-2"></i>Add to wish list</a>
                                 </div>
                             </div>
@@ -42,14 +42,14 @@
                 <div class="container">
                     <div class="row px-4 px-lg-5 py-lg-4 align-items-center">
                         <div class="col-lg-6">
-                            <h1 class="h2 text-uppercase mb-0">Checkout</h1>
+                            <h1 class="h2 text-uppercase mb-0">Paiement</h1>
                         </div>
                         <div class="col-lg-6 text-lg-right">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-lg-end mb-0 px-0">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="cart.html">Cart</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+                                    <li class="breadcrumb-item"><a href="/">Accueil</a></li>
+                                    <li class="breadcrumb-item"><a href="/panier">Panier</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Paiement</li>
                                 </ol>
                             </nav>
                         </div>

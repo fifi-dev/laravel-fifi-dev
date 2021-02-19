@@ -47,7 +47,7 @@
                         <div class="col-lg-6 text-lg-right">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-lg-end mb-0 px-0">
-                                    <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                                    <li class="breadcrumb-item"><a href="/">Accueil</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Panier</li>
                                 </ol>
                             </nav>
@@ -124,8 +124,8 @@
                         <!-- CART NAV-->
                         <div class="bg-light px-4 py-3">
                             <div class="row align-items-center text-center">
-                                <div class="col-md-6 mb-3 mb-md-0 text-md-left"><a class="btn btn-link p-0 text-dark btn-sm" href="shop.html"><i class="fas fa-long-arrow-alt-left mr-2"> </i>Continuer votre shopping</a></div>
-                                <div class="col-md-6 text-md-right"><a class="btn btn-outline-dark btn-sm" href="checkout.html">Paier<i class="fas fa-long-arrow-alt-right ml-2"></i></a></div>
+                                <div class="col-md-6 mb-3 mb-md-0 text-md-left"><a class="btn btn-link p-0 text-dark btn-sm" href="/boutique"><i class="fas fa-long-arrow-alt-left mr-2"> </i>Continuer votre shopping</a></div>
+                                <div class="col-md-6 text-md-right"><a class="btn btn-outline-dark btn-sm" href="/paiement">Payer<i class="fas fa-long-arrow-alt-right ml-2"></i></a></div>
                             </div>
                         </div>
                     </div>

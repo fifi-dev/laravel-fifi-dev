@@ -27,7 +27,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-5 pl-sm-0"><a class="btn btn-dark btn-sm btn-block h-100 d-flex align-items-center justify-content-center px-0" href="cart.html">Ajouter au panier</a></div>
+                                        <div class="col-sm-5 pl-sm-0"><a class="btn btn-dark btn-sm btn-block h-100 d-flex align-items-center justify-content-center px-0" href="/panier">Ajouter au panier</a></div>
                                     </div><a class="btn btn-link text-dark p-0" href="#"><i class="far fa-heart mr-2"></i>Ajouter à la wish list</a>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@
                         <div class="col-lg-6 text-lg-right">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-lg-end mb-0 px-0">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="/">Acceuil</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Boutique</li>
                                 </ol>
                             </nav>
@@ -169,7 +169,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
@@ -186,7 +186,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
@@ -203,7 +203,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
@@ -220,7 +220,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
@@ -237,7 +237,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
@@ -254,7 +254,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
@@ -271,7 +271,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
@@ -288,7 +288,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
@@ -305,7 +305,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
@@ -322,7 +322,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
@@ -339,7 +339,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
@@ -356,7 +356,7 @@
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Ajouter au panier</a></li>
+                                                    <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="/panier">Ajouter au panier</a></li>
                                                     <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
                                                 </ul>
                                             </div>
