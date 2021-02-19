@@ -32,7 +32,7 @@ class ProductFactory extends Factory
             'regular_price' => $this->faker->numberBetween(10,500),
             'SKU' => 'DIGI'.$this->faker->unique()->numberBetween(100,500),
             'stock_status' => 'instock',
-            'quantity' => $this->faker->numberBetweeb(100,200),
+            'quantity' => $this->faker->numberBetween(100,200),
             'image' => 'digital-' . $this->faker->unique()->numberBetween(1,22).'.jpg',
             'category_id' => $this->faker->numberBetween(1,5)
         ];
