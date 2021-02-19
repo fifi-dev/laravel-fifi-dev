@@ -61,7 +61,7 @@
                         <!-- SHOP SIDEBAR-->
                         <div class="col-lg-3 order-2 order-lg-1">
                             <h5 class="text-uppercase mb-4">Categories</h5>
-                            <div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase font-weight-bold">Fashion &amp; Acc</strong></div>
+                            <div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase font-weight-bold">Mode &amp; Accessoires</strong></div>
                             <ul class="list-unstyled small text-muted pl-lg-4 font-weight-normal">
                                 <li class="mb-2"><a class="reset-anchor" href="#">T-Shirts Femme</a></li>
                                 <li class="mb-2"><a class="reset-anchor" href="#">T-Shirts Homme</a></li>
@@ -70,7 +70,7 @@
                                 <li class="mb-2"><a class="reset-anchor" href="#">Lunettes Femme</a></li>
                                 <li class="mb-2"><a class="reset-anchor" href="#">Lunettes Homme</a></li>
                             </ul>
-                            <div class="py-2 px-4 bg-light mb-3"><strong class="small text-uppercase font-weight-bold">Health &amp; Beauty</strong></div>
+                            <div class="py-2 px-4 bg-light mb-3"><strong class="small text-uppercase font-weight-bold">Hygiène &amp; Beauté</strong></div>
                             <ul class="list-unstyled small text-muted pl-lg-4 font-weight-normal">
                                 <li class="mb-2"><a class="reset-anchor" href="#">Rasoirs</a></li>
                                 <li class="mb-2"><a class="reset-anchor" href="#">Sacs</a></li>
