@@ -34,6 +34,10 @@ Route::get('/panier',CartComponent::class);
 //chemin vers le paiment
 Route::get('/paiement',CheckComponent::class);
 
+
+//chemin vers le detail du produit via une url dediée
+Route::get('/product/{slug}');
+
 //Pout l'utilisateur ou client
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

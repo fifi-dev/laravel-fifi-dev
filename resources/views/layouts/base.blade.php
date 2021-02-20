@@ -60,17 +60,7 @@
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a class="nav-link" href="/panier"> <i class="fas fa-dolly-flatbed mr-1 text-gray"></i>Cart<small class="text-gray">(2)</small></a></li>
                             <li class="nav-item"><a class="nav-link" href="#"> <i class="far fa-heart mr-1"></i><small class="text-gray"> (0)</small></a></li>
-                            
-                            @if(Route::has('login'))
-                            @auth
-                                @if(Auth::user())
-                            
-                            @else
-                            <li class="nav-item"><a class="nav-link" href="{{route('login')}}"> <i class="fas fa-user-alt mr-1 text-gray"></i>Connexion</a></li>
-                            @endif
-
-
-                            @endif
+                            <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-user-alt mr-1 text-gray"></i>Connexion</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -153,7 +143,7 @@
             // pls don't forget to change to your domain :)
             injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg');
         </script>
-        @livewireScripts
+         @livewireScripts
         <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     </div>
