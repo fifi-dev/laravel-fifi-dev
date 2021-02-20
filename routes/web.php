@@ -33,11 +33,11 @@ Route::get('/boutique',ShopComponent::class);
 Route::get('/panier',CartComponent::class);
 
 //chemin vers le paiment
-Route::get('/paiement',CheckComponent::class)->name('product.details');
+Route::get('/paiement',CheckComponent::class);
 
 
 //chemin vers le detail du produit via une url dediée
-Route::get('/product/{slug},DetailsComponent::class');
+Route::get('/product/{slug}',DetailsComponent::class)->name('products.details');
 
 //Pout l'utilisateur ou client
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

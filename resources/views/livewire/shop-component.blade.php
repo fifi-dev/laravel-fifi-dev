@@ -166,7 +166,7 @@
                                 <div class="col-lg-4 col-sm-6">
                                     <div class="product text-center">
                                         <div class="mb-3 position-relative">
-                                            <div class="badge text-white badge-"></div><a class="d-block" href="detail.html"><img class="img-fluid w-100" src="{{ asset('assets/img') }}/{{$product->image}}" alt="{{$product->name}}"></a>
+                                            <div class="badge text-white badge-"></div><a class="d-block" href="{{route('products.details',['slug'=>$product->slug])}}"><img class="img-fluid w-100" src="{{ asset('assets/img') }}/{{$product->image}}" alt="{{$product->name}}"></a>
                                             <div class="product-overlay">
                                                 <ul class="mb-0 list-inline">
                                                     <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
@@ -175,7 +175,7 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <h6> <a class="reset-anchor" href="detail.html">{{$product->name}}</a></h6>
+                                        <h6> <a class="reset-anchor" href="{{route('products.details',['slug'=>$product->slug])}}">{{$product->name}}</a></h6>
                                         <p class="small text-muted">${{$product->regular_price}}</p>
                                     </div>
                                 </div>
