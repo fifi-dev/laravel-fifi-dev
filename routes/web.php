@@ -35,7 +35,6 @@ Route::get('/panier',CartComponent::class);
 Route::get('/paiement',CheckComponent::class);
 
 //Pout l'utilisateur ou client
-
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
