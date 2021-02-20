@@ -22,10 +22,6 @@ use Illuminate\Support\Facades\Route;
  //   return view('welcome');
 //});
 
-//Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
- //   return view('dashboard');
-//})->name('dashboard');
-
 //chemin vers la page d'acceuil
 Route::get('/',HomeComponent::class);
 
@@ -37,3 +33,9 @@ Route::get('/panier',CartComponent::class);
 
 //chemin vers le paiment
 Route::get('/paiement',CheckComponent::class);
+
+//Pout l'utilisateur ou client
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
