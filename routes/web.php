@@ -5,6 +5,7 @@ use App\Http\Livewire\HomeComponent;
 use App\Http\Livewire\ShopComponent;
 use App\Http\Livewire\CartComponent;
 use App\Http\Livewire\CheckComponent;
+use App\Http\Livewire\DetailsComponent;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,11 +33,11 @@ Route::get('/boutique',ShopComponent::class);
 Route::get('/panier',CartComponent::class);
 
 //chemin vers le paiment
-Route::get('/paiement',CheckComponent::class);
+Route::get('/paiement',CheckComponent::class)->name('product.details');
 
 
 //chemin vers le detail du produit via une url dediée
-Route::get('/product/{slug}');
+Route::get('/product/{slug},DetailsComponent::class');
 
 //Pout l'utilisateur ou client
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
