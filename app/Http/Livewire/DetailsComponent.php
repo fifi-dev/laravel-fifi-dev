@@ -18,6 +18,6 @@ class DetailsComponent extends Component
     {
         $product = Product::where('slug',$this->slug)->first();
         $related_products = Product::where('category_id',$product->category_id)->inRandomOrder()->limit(4)->get();
-        return view('livewire.details-component',['product'=>$product,'related_products'=>$related_products])->layout('layouts.base');
+        return view('livewire.details-component',['product'=>$product,'related_products'=>$related_products,'related_view'=>$related_view])->layout('layouts.base');
     }
 }
