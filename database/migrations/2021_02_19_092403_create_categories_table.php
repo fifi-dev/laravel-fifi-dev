@@ -17,6 +17,8 @@ class CreateCategoriesTable extends Migration
             $table->id();
             //nom de la catégorie
             $table->string('name')->unique();
+            //image du produit
+            $table->string('image')->nullable();
             $table->string('slug')->unique();
             $table->timestamps();
         });
