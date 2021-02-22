@@ -30,7 +30,7 @@ Route::get('/',HomeComponent::class);
 Route::get('/boutique',ShopComponent::class);
 
 //chemin vers le panier
-Route::get('/panier',CartComponent::class);
+Route::get('/panier',CartComponent::class)->name('product.cart');
 
 //chemin vers le paiment
 Route::get('/paiement',CheckComponent::class);
