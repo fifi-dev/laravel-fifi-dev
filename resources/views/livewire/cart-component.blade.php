@@ -67,7 +67,7 @@
                                 <strong>Success</strong> {{Session::get('success_message')}}
                             </div>
                             @endif
-                        @if(Cart::content() as $item)
+                        @if(Cart::count() > 0)
                             <table class="table">
                                 <thead class="bg-light">
                                     <tr>

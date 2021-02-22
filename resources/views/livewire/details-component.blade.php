@@ -27,7 +27,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-5 pl-sm-0"><a class="btn btn-dark btn-sm btn-block h-100 d-flex align-items-center justify-content-center px-0" href="cart.html">Add to cart</a></div>
+                                        <div class="col-sm-5 pl-sm-0"><a class="btn btn-dark btn-sm btn-block h-100 d-flex align-items-center justify-content-center px-0" href="#" wire::click.prevent="store({{$product->id}},'{{$product->name}}',{{$product->regular_price}})">Ajouter au panier</a></div>
                                     </div><a class="btn btn-link text-dark p-0" href="#"><i class="far fa-heart mr-2"></i>Ajouter à la liste de souhait</a>
                                     
                                 </div>
