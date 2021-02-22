@@ -33,8 +33,8 @@ class ProductFactory extends Factory
             'SKU' => 'DIGI'.$this->faker->unique()->numberBetween(100,500),
             'stock_status' => 'instock',
             'quantity' => $this->faker->numberBetween(100,200),
-            'image' => 'product-' . $this->faker->unique()->numberBetween(1,22).'.jpg',
-            'category_id' => $this->faker->numberBetween(1,5)
+            'image' => 'product-' . $this->faker->unique()->numberBetween(1,100).'.jpg',
+            'category_id' => $this->faker->numberBetween(1,10)
         ];
     }
 }

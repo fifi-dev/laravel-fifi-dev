@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         //php artisan db serve 
         // \App\Models\User::factory(10)->create();
-        \App\Models\Category::factory(6)->create();
-        \App\Models\Product::factory(22)->create();
+        \App\Models\Category::factory(10)->create();
+        \App\Models\Product::factory(100)->create();
     }
 }
