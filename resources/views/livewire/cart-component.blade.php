@@ -62,7 +62,12 @@
                     <div class="col-lg-8 mb-4 mb-lg-0">
                         <!-- CART TABLE-->
                         <div class="table-responsive mb-4">
-                        if(Cart::content() as $item)
+                        @if(Session::has('succes_message'))
+                            <div class="alert alert-success">
+                                <strong>Success</strong> {{Session::get('success_message')}}
+                            </div>
+                            @endif
+                        @if(Cart::content() as $item)
                             <table class="table">
                                 <thead class="bg-light">
                                     <tr>

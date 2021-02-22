@@ -10,8 +10,8 @@ class ShopComponent extends Component
 {
     public function store($product_id,$product_name,$product_price)
     {
-        Cart::add($product_id,$product_name,1,)->associate('App\Models\Product');
-        session()->flash('succes_message','Produit ajouté au panier');
+        Cart::add($product_id,$product_name,1,$product_price)->associate('App\Models\Product');
+        session()->flash('success_message','Produit ajouté au panier');
         return redirect()->route('product.cart');
     }
     use WithPagination;
