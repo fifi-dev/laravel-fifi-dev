@@ -62,13 +62,12 @@
                     <div class="col-lg-8 mb-4 mb-lg-0">
                         <!-- CART TABLE-->
                         <div class="table-responsive mb-4">
-                        @if(Session::has('succes_message'))
+                            <table class="table">
+                            @if(Session::has('success_message'))
                             <div class="alert alert-success">
                                 <strong>Success</strong> {{Session::get('success_message')}}
                             </div>
                             @endif
-                        @if(Cart::count() > 0)
-                            <table class="table">
                                 <thead class="bg-light">
                                     <tr>
                                         <th class="border-0" scope="col"> <strong class="text-small text-uppercase">Produit</strong></th>
@@ -78,6 +77,7 @@
                                         <th class="border-0" scope="col"> </th>
                                     </tr>
                                 </thead>
+                                @if(Cart::count() > 0)
                                 <tbody>
                                 @foreach (Cart::content() as $item)
                                     <tr>
@@ -105,10 +105,10 @@
                                     </tr>
                                     @endforeach
                                 </tbody>
-                            </table>
-                            @else
+                                @else
                             <p>Pas de produit dans le panier</p>
                             @endif
+                            </table>
                         </div>
                         <!-- CART NAV-->
                         <div class="bg-light px-4 py-3">
