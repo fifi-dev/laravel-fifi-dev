@@ -7,19 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+##  initialisation du projet et Ressources
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Bonjour, voici quelques etapes à realiser pour initialiser le projet.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Dans le terminal lancer la commdande: "composer install"
+- Puis lancer la commande "npm install"
+- Dupliquer le fichier ".env example" et le renommer en ".env"
+- Congigurer vos données de connexion (root)
+- Sur votre application de gestion de base de données (bdd), creer un bdd qui s'appelle "e-commerce-laravel"
+- Ouvrez le temrinal du projet et lancer la commande; php artisan migrate
+- Ensuite pour generer du faux contenu ('ici des categories et produits), lancez la commande: "php artisan db serve"
+- Enfin vous pouvez lancer votre serveur via le termiinal avec la commande "php artisan serve"
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Concernant les ressources, vous pouvez voir le template utilisé en dezipant le dossier "template.zip". Vous pouvez egalement modifier les images dans public/assets/img. Cependant attension a la nomenclature des images, ils doivent avoir comme nom: produit-nombre et doivent etre en jpg.
 
 ## Learning Laravel
 
@@ -45,18 +46,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[Curotec](https://www.curotec.com/)**
 - **[OP.GG](https://op.gg)**
 
-## Contributing
+## Contact
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Pour toute question vous pouvez me joindre via l'adresse : fideline.bzn@yahoo.com
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
