@@ -6,6 +6,8 @@ use App\Http\Livewire\ShopComponent;
 use App\Http\Livewire\CartComponent;
 use App\Http\Livewire\CheckComponent;
 use App\Http\Livewire\DetailsComponent;
+use App\Http\Livewire\User\UserDashboardComponent;
+use App\Http\Livewire\Admin\AdminDashboardComponent;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,11 +42,18 @@ Route::get('/paiement',CheckComponent::class);
 Route::get('/product/{slug}',DetailsComponent::class)->name('products.details');
 
 //Pout l'utilisateur ou client
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+//Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+ //   return view('dashboard');
+//})->name('dashboard');
+
+
+//Pour l'utilisateur client
+Route::middleware(['auth:sanctum', 'verified',])->group(function(){
+    Route::get('/user/dashboard',UserDashboardComponent::class)->name('user.dashboard');
+
+});
 
 //Pour l'administrateur
-Route::middleware(['auth:sanctum', 'verified'])->group(function(){
-
+Route::middleware(['auth:sanctum', 'verified',])->group(function(){
+    Route::get('/admin/dashboard',AdminDashboardComponent::class)->name('admin.dashboard');
 });
