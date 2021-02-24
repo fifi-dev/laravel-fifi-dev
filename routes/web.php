@@ -5,6 +5,7 @@ use App\Http\Livewire\HomeComponent;
 use App\Http\Livewire\ShopComponent;
 use App\Http\Livewire\CartComponent;
 use App\Http\Livewire\CheckComponent;
+use App\Http\Livewire\CategoryComponent;
 use App\Http\Livewire\DetailsComponent;
 use App\Http\Livewire\User\UserDashboardComponent;
 use App\Http\Livewire\Admin\AdminDashboardComponent;
@@ -40,6 +41,9 @@ Route::get('/paiement',CheckComponent::class);
 
 //chemin vers le detail du produit via une url dediée
 Route::get('/product/{slug}',DetailsComponent::class)->name('products.details');
+
+//Chemin vers les produits d'une catégorie
+Route::get('/product-category/{category_slug}',CategoryComponent::class)->name('products.category');
 
 //Pout l'utilisateur ou client
 //Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
