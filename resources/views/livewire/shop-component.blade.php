@@ -61,24 +61,13 @@
                         <!-- SHOP SIDEBAR-->
                         <div class="col-lg-3 order-2 order-lg-1">
                             <h5 class="text-uppercase mb-4">Categories</h5>
-                            <div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase font-weight-bold">Mode &amp; Accessoires</strong></div>
+                            <div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase font-weight-bold">Toutes les Catégories</strong></div>
+                            @foreach ($categories as $category)
                             <ul class="list-unstyled small text-muted pl-lg-4 font-weight-normal">
-                                <li class="mb-2"><a class="reset-anchor" href="#">T-Shirts Femme</a></li>
-                                <li class="mb-2"><a class="reset-anchor" href="#">T-Shirts Homme</a></li>
-                                <li class="mb-2"><a class="reset-anchor" href="#">Robes</a></li>
-                                <li class="mb-2"><a class="reset-anchor" href="#">Chaussettes fantaisie</a></li>
-                                <li class="mb-2"><a class="reset-anchor" href="#">Lunettes Femme</a></li>
-                                <li class="mb-2"><a class="reset-anchor" href="#">Lunettes Homme</a></li>
+                                <li class="mb-2"><a class="reset-anchor" href="#">{{$category->name}}</a></li>
                             </ul>
-                            <div class="py-2 px-4 bg-light mb-3"><strong class="small text-uppercase font-weight-bold">Hygiène &amp; Beauté</strong></div>
-                            <ul class="list-unstyled small text-muted pl-lg-4 font-weight-normal">
-                                <li class="mb-2"><a class="reset-anchor" href="#">Rasoirs</a></li>
-                                <li class="mb-2"><a class="reset-anchor" href="#">Sacs</a></li>
-                                <li class="mb-2"><a class="reset-anchor" href="#">Cosmetiques</a></li>
-                                <li class="mb-2"><a class="reset-anchor" href="#">Nail Art</a></li>
-                                <li class="mb-2"><a class="reset-anchor" href="#">Skin Masks &amp; Peelings</a></li>
-                                <li class="mb-2"><a class="reset-anchor" href="#">Korean cosmetics</a></li>
-                            </ul>
+                            @endforeach
+                            <!--
                             <div class="py-2 px-4 bg-light mb-3"><strong class="small text-uppercase font-weight-bold">Electroniques</strong></div>
                             <ul class="list-unstyled small text-muted pl-lg-4 font-weight-normal mb-5">
                                 <li class="mb-2"><a class="reset-anchor" href="#">Electroniques</a></li>
@@ -87,7 +76,8 @@
                                 <li class="mb-2"><a class="reset-anchor" href="#">Enceintes Portables</a></li>
                                 <li class="mb-2"><a class="reset-anchor" href="#">Casque Bluetooth</a></li>
                                 <li class="mb-2"><a class="reset-anchor" href="#">Claviers</a></li>
-                            </ul>
+                            </ul> -->
+                            <!-- -->
                             <h6 class="text-uppercase mb-4">Échelle des prix</h6>
                             <div class="price-range pt-4 mb-5">
                                 <div id="range"></div>
