@@ -25,6 +25,14 @@
                                  </div>
                              </div>
 
+                             
+                             <div class="form-group">
+                                 <label class="col-md-4 control-label">SlUG de la catégorie</label>
+                                 <div class="col-md-4">
+                                     <input type="text" placeholder="slug" class="form-control input-md" wire:model="image">
+                                 </div>
+                             </div>
+
                              <div class="form-group">
                                  <label class="col-md-4 control-label">SlUG de la catégorie</label>
                                  <div class="col-md-4">

@@ -22,6 +22,7 @@ class AdminAddCategoryComponent extends Component
         $category = new Category();
         $category->name = $this->slug;
         $category->slug = $this->name;
+        $category->image = $this->image;
         $category->save();
         session()->flash('message','La catégorie a été crée avec succes !');
     }
