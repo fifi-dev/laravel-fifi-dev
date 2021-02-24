@@ -147,14 +147,20 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <ul class="list-inline d-flex align-items-center justify-content-lg-end mb-0">
-                                        <li class="list-inline-item text-muted mr-3"><a class="reset-anchor p-0" href="#"><i class="fas fa-th-large"></i></a></li>
-                                        <li class="list-inline-item text-muted mr-3"><a class="reset-anchor p-0" href="#"><i class="fas fa-th"></i></a></li>
                                         <li class="list-inline-item">
-                                            <select class="selectpicker ml-auto" name="sorting" data-width="200" data-style="bs-select-form-control" data-title="Default sorting">
-                                                <option value="default">Default sorting</option>
-                                                <option value="popularity">Popularity</option>
-                                                <option value="low-high">Price: Low to High</option>
-                                                <option value="high-low">Price: High to Low</option>
+                                            <select class="selectpicker ml-auto" name="orderby" data-width="200" data-style="bs-select-form-control"  wire:model="sorting">
+                                                <option value="default" selected="selected">Default sorting</option>
+                                                <option value="date">Trier par nouveauté</option>
+                                                <option value="low-high">Prix: - cher au + cher</option>
+                                                <option value="high-low">Prix: + cher au - cher</option>
+                                            </select>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <select class="selectpicker ml-auto" name="sorting" data-width="200" data-style="bs-select-form-control"  wire:model="pagesize">
+                                                <option value="12" selected="selected">12 produits/pages</option>
+                                                <option value="16">16 produits/pages</option>
+                                                <option value="18">18 produits/pages</option>
+                                                <option value="21">21 produits/pages</option>
                                             </select>
                                         </li>
                                     </ul>
@@ -184,13 +190,13 @@
                             <!-- PAGINATION-->
                             <nav aria-label="Page navigation example">
                             {{ $products->links() }}
-                            {{--  <ul class="pagination justify-content-center justify-content-lg-end">
+                           <!-- <ul class="pagination justify-content-center justify-content-lg-end">
                                     <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
                                     <li class="page-item active"><a class="page-link" href="#">1</a></li>
                                     <li class="page-item"><a class="page-link" href="#">2</a></li>
                                     <li class="page-item"><a class="page-link" href="#">3</a></li>
                                     <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-                                </ul> --}}
+                                </ul> -->
 
                             </nav>
                         </div>
