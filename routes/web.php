@@ -65,5 +65,5 @@ Route::middleware(['auth:sanctum', 'verified',])->group(function(){
     Route::get('/admin/dashboard',AdminDashboardComponent::class)->name('admin.dashboard');
     Route::get('/admin/categories',AdminCategoryComponent::class)->name('admin.categories');
     Route::get('/admin/ajouter',AdminAddCategoryComponent::class)->name('admin.addcategory');
-    Route::get('/admin/modifier',AdminEditCategoryComponent::class)->name('admin.editcategory');
+    Route::get('/admin/modifer/{category_slug}',AdminEditCategoryComponent::class)->name('admin.editcategory');
 });

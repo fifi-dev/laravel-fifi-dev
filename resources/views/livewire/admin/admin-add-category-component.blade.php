@@ -27,9 +27,9 @@
 
                              
                              <div class="form-group">
-                                 <label class="col-md-4 control-label">SlUG de la catégorie</label>
+                                 <label class="col-md-4 control-label">Nom de l'image de la catégorie</label>
                                  <div class="col-md-4">
-                                     <input type="text" placeholder="slug" class="form-control input-md" wire:model="image">
+                                     <input type="text" placeholder="ex:categorie-15.jpg" class="form-control input-md" wire:model="image">
                                  </div>
                              </div>
 
