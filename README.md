@@ -24,10 +24,9 @@ Concernant les ressources, vous pouvez voir le template utilisé en dezipant le 
 
 ## PARTIE ADMIN
 
-url: http://127.0.0.1:8000/admin/dashboard
-
-email : admin@test.test
-mot de passe : laravel_admin
+- url: http://127.0.0.1:8000/admin/dashboard
+- email : admin@test.test
+- mot de passe : laravel_admin
 
 
 ## Contact
