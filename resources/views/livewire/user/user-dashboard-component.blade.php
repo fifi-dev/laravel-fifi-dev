@@ -1,3 +1,3 @@
 <div>
-    <h1>Dashboard Admin</h1>
+    <h1>Dashboard utilisateur</h1>
 </div>
