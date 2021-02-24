@@ -46,5 +46,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 //Pour l'administrateur
 Route::middleware(['auth:sanctum', 'verified'])->group(function(){
-    
-})
+
+});
