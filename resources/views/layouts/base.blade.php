@@ -98,6 +98,7 @@
                                     @endif
                                 @else
                                 <li class="nav-item"><a class="nav-link" href="{{route('login')}}"> <i class="fas fa-user-alt mr-1 text-gray"></i>Connexion</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{route('register')}}"> <i class="fas fa-user-alt mr-1 text-gray"></i>Inscription</a></li>
                                 @endif
 
                             @endif
