@@ -10,6 +10,7 @@ use App\Models\Category;
 
 class ShopComponent extends Component
 {
+    use WithPagination;
     public $sorting;
     public $pagesize;
     public function mount()
@@ -23,7 +24,6 @@ class ShopComponent extends Component
         session()->flash('success_message','Produit ajouté au panier');
         return redirect()->route('product.cart');
     }
-    use WithPagination;
     public function render()
     {
         if($this->sorting=='date')

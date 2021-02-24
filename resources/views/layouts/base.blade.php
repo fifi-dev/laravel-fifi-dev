@@ -70,6 +70,9 @@
 											<a title="Dashboard" href="{{ route('admin.dashboard') }}">Dashboard</a>
 										</li>
                                         <li class="menu-item" >
+											<a title="Categories" href="{{ route('admin.categories') }}">Catégories</a>
+										</li>
+                                        <li class="menu-item" >
 											<a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Deconnexion</a>
 										</li>
                                         <form id="logout-form" method="POST" action="{{ route('logout') }}">

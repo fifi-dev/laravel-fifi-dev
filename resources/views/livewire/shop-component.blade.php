@@ -177,18 +177,19 @@
                                 </div>
                                 @endforeach
                             </div>
+                            {{$products->links()}}
                             <!-- PAGINATION-->
-                            <nav aria-label="Page navigation example">
+                            <!--<nav aria-label="Page navigation example">
                             {{ $products->links() }}
-                           <!-- <ul class="pagination justify-content-center justify-content-lg-end">
+                            <ul class="pagination justify-content-center justify-content-lg-end">
                                     <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
                                     <li class="page-item active"><a class="page-link" href="#">1</a></li>
                                     <li class="page-item"><a class="page-link" href="#">2</a></li>
                                     <li class="page-item"><a class="page-link" href="#">3</a></li>
                                     <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-                                </ul> -->
+                                </ul>
 
-                            </nav>
+                            </nav> -->
                         </div>
                     </div>
                 </div>
