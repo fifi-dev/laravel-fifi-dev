@@ -60,7 +60,32 @@
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a class="nav-link" href="/panier"> <i class="fas fa-dolly-flatbed mr-1 text-gray"></i>Cart<small class="text-gray">(2)</small></a></li>
                             <li class="nav-item"><a class="nav-link" href="#"> <i class="far fa-heart mr-1"></i><small class="text-gray"> (0)</small></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-user-alt mr-1 text-gray"></i>Connexion</a></li>
+                            @if (Route:: has ('login'))
+                                @auth
+                                    @if(Auth::user()->utype === 'ADM')
+                                    <li class="menu-item menu-item-has-children parent" >
+									<a title="Mon Compte" href="#">Mon Compte({{Auth::user()->name}}) <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<ul class="submenu curency" >
+										<li class="menu-item" >
+											<a title="Dashboard" href="#">Dashboard</a>
+										</li>
+									</ul>
+								    </li>
+                                    @else
+                                    <li class="menu-item menu-item-has-children parent" >
+									<a title="Mon Compte" href="#">Mon Compte({{Auth::user()->name}}) <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<ul class="submenu curency" >
+										<li class="menu-item" >
+											<a title="Dashboard" href="#">Dashboard</a>
+										</li>
+									</ul>
+								    </li>
+                                    @endif
+                                @else
+                                <li class="nav-item"><a class="nav-link" href="{{route('login')}}"> <i class="fas fa-user-alt mr-1 text-gray"></i>Connexion</a></li>
+                                @endif
+
+                            @endif
                         </ul>
                     </div>
                 </nav>
@@ -119,6 +144,7 @@
         <script src="{{ asset('assets/vendor/owl.carousel2/owl.carousel.min.js') }}"></script>
         <script src="{{ asset('assets/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js') }}"></script>
         <script src="{{ asset('assets/js/front.js') }}"></script>
+        <script src="{{ asset('assets/js/countries.json') }}"></script>
         <script>
             // ------------------------------------------------------- //
             //   Inject SVG Sprite - 
