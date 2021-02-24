@@ -4,7 +4,14 @@
              <div class="col-md-12">
                  <div class="pane panel-default">
                      <div class="panel-heading">
-                         Toutes les Catégories
+                         <div class="row">
+                             <div class="col-md-6">
+                                 Toutes les Catégories
+                             </div>
+                             <div class="col-md-6">
+                                 <a href="{{route('admin.addcategory')}}" class="btn btn-success pull-right">Ajouter</a>
+                             </div>
+                         </div>
                      </div>
                      <div class="panel-body">
                          <table class="table table-striped">
