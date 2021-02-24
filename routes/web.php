@@ -43,3 +43,8 @@ Route::get('/product/{slug}',DetailsComponent::class)->name('products.details');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+//Pour l'administrateur
+Route::middleware(['auth:sanctum', 'verified'])->group(function(){
+    
+})
