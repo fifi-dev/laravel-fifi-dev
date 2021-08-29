@@ -7,20 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-##  Avant Propos
-
-Bonjour Monsieur, 
-
-Suite à un entretien on m'a conseillé de mettre mes repositories en public pour que leur recruteur puissent y acceder. Dans cet objectic je souhaiterais continuer le projet (à faire des commit).
-
-Je souhaiterais faire un folk de cette repo pour pouvoir le mettre sur mon profil. Pourriez-vous rendre public cette repo s'il vous plait ?
-
-Merci d'avance,
-
-Fideline BAZANA NTOMO
-
--nb: je marque nomme ce commit rendue pour que vous puissiez avoir un repère
-
 ##  initialisation du projet et Ressources
 
 Bonjour, voici quelques etapes à realiser pour initialiser le projet.
@@ -45,5 +31,5 @@ Concernant les ressources, vous pouvez voir le template utilisé en dezipant le 
 
 ## Contact
 
-Pour toute question vous pouvez me joindre via l'adresse : fideline.bzn@yahoo.com
+Pour toute question vous pouvez me joindre via l'adresse : fideline_bzn@yahoo.com
 
